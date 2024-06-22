@@ -1,4 +1,4 @@
-# 🌺 Reconhecimento de Flores com Rede Neural Convolucional (CNN) 🌻
+# 🌺 Reconhecimento de Flores com Rede Neural Convolucional(CNN) 🌻
 
 Este projeto consiste em uma aplicação de reconhecimento de flores utilizando uma Rede Neural Convolucional (CNN). A aplicação permite aos usuários enviar imagens de flores e obter uma previsão sobre qual tipo de flor a imagem representa, juntamente com uma pontuação de confiança.
 
