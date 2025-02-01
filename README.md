@@ -28,8 +28,9 @@ This project implements a flower recognition system using a Convolutional Neural
 # Email: marianamartiyns@gmail.com
 ```
 > [!IMPORTANT]  
-> This repository was created by fully following the youtube tutorial for study purposes. <br>
-> <img align="right" width ='80px' href="https://youtu.be/h6TJiGrYINk?si=t7wtJHcm1U-h6sT7" src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white" alt="Youtube"/>
+> This repository was created by fully following the [youtube tutorial](https://youtu.be/h6TJiGrYINk?si=5UQpgBVsHu5QLD21)
+ for study purposes. <br>
+
 <br>
 
 <img align="right" width ='40px' src ='https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg'> </a>
