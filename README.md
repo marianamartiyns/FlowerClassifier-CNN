@@ -1,42 +1,37 @@
-# 🌺 Reconhecimento de Flores com Rede Neural Convolucional(CNN) 🌻
+# 🌺 Flower Recognition with Convolutional Neural Network (CNN)
 
-Este projeto consiste em uma aplicação de reconhecimento de flores utilizando uma Rede Neural Convolucional (CNN). A aplicação permite aos usuários enviar imagens de flores e obter uma previsão sobre qual tipo de flor a imagem representa, juntamente com uma pontuação de confiança.
+> Image classification using deep learning to recognize different types of flowers.
 
-## Funcionalidades
+### > 📋 Description
 
-- **Carregamento e Pré-processamento de Dados**: O código carrega um conjunto de dados de imagens de flores, divide-o em conjuntos de treinamento e validação e aplica técnicas de pré-processamento, como redimensionamento e data augmentation.
+This project implements a flower recognition system using a Convolutional Neural Network (CNN). Users can upload flower images and receive predictions about the flower type along with a confidence score.
 
-- **Construção e Treinamento da CNN**: Uma CNN é construída usando a biblioteca TensorFlow/Keras. A arquitetura da CNN inclui camadas de convolução, pooling, dropout e densas para realizar a classificação das imagens.
+### > 🧩 Features and Analytical Techniques
 
-- **Classificação de Imagens**: Os usuários podem fazer upload de suas próprias imagens de flores. O sistema classifica essas imagens usando o modelo treinado e retorna o tipo de flor previsto, juntamente com uma pontuação de confiança.
+- [x] **Data Loading & Preprocessing**: Image dataset preparation, including resizing, augmentation, and train-validation split.
+- [x] **CNN Model Training**: Deep learning architecture with convolutional, pooling, dropout, and dense layers implemented using TensorFlow/Keras.
+- [x] **Image Classification**: Users can upload flower images, and the trained model predicts the flower type with confidence scores.
 
-## Como Usar
+### > 📂 Repository Structure
 
-1. **Instalação de Dependências**: Certifique-se de ter todas as dependências instaladas. Você pode instalá-las executando `pip install -r requirements.txt`.
+- **`app.py`**: Streamlit-based web application for image uploads and predictions.
+- **`Flower_Classification.ipynb`**: Jupyter Notebook containing the CNN model development and training.
+- **`requirements.txt`**: Python dependencies required to run the project.
+- **`images/`**: Dataset directory containing training and validation flower images.
+- **`sample/`**: Sample images to test the application.
 
-2. **Treinamento do Modelo (Opcional)**: Se desejar treinar o modelo novamente com seus próprios dados, siga as instruções no código para carregar seus dados de imagens.
+```py
+# Author Info
 
-3. **Execução da Aplicação**: Para executar a aplicação, simplesmente execute o arquivo `streamlit run app.py` com Python. Isso iniciará o servidor web e abrirá a aplicação no navegador.
+# LinkedIn: https://www.linkedin.com/in/profile-mariana-martins/
+# GitHub: https://github.com/marianamartiyns
+# Email: marianamartiyns@gmail.com
+```
+> [!IMPORTANT]  
+> This repository was created by fully following the youtube tutorial for study purposes. <br>
+> <img align="right" width ='80px' href="https://youtu.be/h6TJiGrYINk?si=t7wtJHcm1U-h6sT7" src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white" alt="Youtube"/>
+<br>
 
-4. **Upload de Imagens**: Na aplicação web, os usuários podem fazer upload de suas próprias imagens de flores clicando no botão "Upload an Image".
-
-5. **Visualização dos Resultados**: Após o upload da imagem, a aplicação exibirá a imagem enviada e a classificação prevista, juntamente com uma pontuação de confiança.
-
-## Arquivos e Diretórios
-
-- **`app.py`**: Contém o código para a aplicação web desenvolvida com Streamlit. Gerencia o upload de imagens e exibe os resultados da classificação.
-
-- **`Classificação de flores.ipynb`**: Contém o código para construir, treinar e salvar o modelo CNN usando TensorFlow/Keras.
-
-- **`requirements.txt`**: Lista as dependências do Python necessárias para executar a aplicação.
-
-- **`imagens/`**: Diretório que contém o conjunto de dados de imagens de flores para treinamento e validação.
-
-- **`amostra/`**: Diretório de amostra contendo imagens de flores para teste da aplicação.
-
-## Licença
-
-Este projeto é distribuído sob a licença MIT. Veja o arquivo `LICENSE` para obter mais detalhes.
-
-<img align="right" width ='40px' src ='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jupyter/jupyter-original-wordmark.svg'> </a>
 <img align="right" width ='40px' src ='https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg'> </a>
+<img align="right" width ='40px' src ='https://upload.wikimedia.org/wikipedia/commons/a/ab/TensorFlow_logo.svg'> </a>
+<img align="right" width ='40px' src ='https://streamlit.io/images/brand/streamlit-mark-color.svg'> </a>
